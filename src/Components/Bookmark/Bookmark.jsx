@@ -3,7 +3,7 @@ const Bookmark = ({bookmark}) => {
     const {title} = bookmark
     return (
         <div>
-            <h3 className='bg-gray-200 p-4 m-4 rounded-xl'>{title}</h3>
+            <h3 className='bg-gray-200 p-4 my-4 rounded-xl'>{title}</h3>
         </div>
     );
 };
